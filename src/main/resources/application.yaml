@@ -1,0 +1,12 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/g115-sprint-task-6
+    username: postgres
+    password: postgresql
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
